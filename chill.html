@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cafe Locator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <style> * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(180deg, #087E8B 0%, #CCEAEA 100%)
+    }
+    
+    header {
+        background-color: #4285f4;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    main {
+        padding: 1em;
+    }
+    
+    .search {
+        margin-bottom: 1em;
+    }
+    
+    h2 {
+        margin-bottom: 0.5em;
+    }
+    
+    form {
+        display: flex;
+    }
+    
+    input[type="text"] {
+        flex: 1;
+        padding: 0.5em;
+        border: 1px solid #ccc;
+        border-radius: 5px 0 0 5px;
+    }
+    
+    button[type="submit"] {
+        background-color: #4285f4;
+        color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        padding: 0.5em 1em;
+        cursor: pointer;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 1em;
+        margin: 10em;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    }
+    
+    li {
+        display: flex;
+	align-items: center;
+	margin: 1em;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+    
+    img {
+        margin-right: 1em;
+    }
+    
+    h3 {
+        margin: 0;
+    }
+    
+    footer {
+        background-color: #4285f4;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #0B3954;
+    color: #fff;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 6em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+nav {
+    margin-left: auto;
+}
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.category-buttons button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #eee;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 8px;
+    border-radius: 4px;
+    align-items: center;
+    height: 170px;
+    width: 185px;
+    border-radius: 30px;
+    
+}
+
+.category-buttons button.active {
+    background-color: #F8FFAC;
+    color: black;
+}
+
+
+    </style>
+	</main>
+	<header>
+        <h1><img src="https://i.ibb.co/mt8BS3y/Logo-1.jpg" style="border-radius: 30px;"> </h1>
+        <nav>
+            <ul>
+                <li><a href="notmade.html">Search</a></li>
+                <li><a href="notmade.html">Reviews</a></li>
+                <li><a href="notmade.html">Promotions</a></li>
+                <li><a href="notmade.html">Filters</a></li>
+                <li><a href="notmade.html">Admin</a></li>
+                <li><a href="notmade.html">Contact Us</a></li>
+                <li><a href="notmade.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+	<main>
+			<form>
+				<div class="category-buttons">
+                    <button class="active">
+                        <a href="chill.html"><h1>☁️</h1>
+                        <h2>นั่งชิว</h2></a></button>
+                    <button><a href="cat.html"><h1>😸</h1>
+                        <h2>รักสัตว์</h2></a></button>
+                    <button><a href="book.html"><h1>📚</h1>
+                        <h2>อ่านหนังสือ</h2></a></button>
+                </div>
+                
+			</form>
+		</section>
+		<section class="results">
+			<ul>
+				<li>
+					<img src="https://i.ibb.co/92bGX9K/daydream-3.png" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/daydreamcoffeestudio/">DayDream Coffee Studio</a></h3>
+						<p>280/14 ถนนกรุงเทพกรีฑา แขวงหัวหมาก 
+                            <br>เขตบางกะปิ, Bangkok,
+                            <br> Thailand, Bangkok</p>
+						<p>Opening Hours :
+                            <br>8am - 5pm (Tues-Fri)
+                            <br>9am - 6pm (Sat-Sun)</p>
+						<p>Rating: 5.0 ⭐⭐⭐⭐⭐</p>
+					</div> 
+				</li>
+				<li>
+					<img src="https://i.ibb.co/KxLwKw6/278455323-1005819370328074-6887251207512440734-n-1.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/skybakerybyfahsaii/?_rdc=1&_rdr">Sky Bakery And Coffee</a></h3>
+						<p>WQRG+Q2 ตำบล ลำลูกกา,
+                            <br> Lam Luk Ka,
+                            <br> Thailand, Pathum Thani</p>
+						<p>Opening Hours :
+                            <br>9am - 6pm (Mon-Sat)
+                            <br>9am - 5pm (Sun)
+                        </p>
+						<p>Rating: 4.9 ⭐⭐⭐⭐</p>
+					</div>
+				</li>
+            </ul>
+            <ul>
+				<li>
+					<img src="https://i.ibb.co/Y7nwBR4/whiteline-1.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/WhitelineCafe/">Whiteline Cafe</a></h3>
+						<p>Bangkok, Thailand,
+                            <br> Bangkok</p>
+						<p>Opening Hours :
+                            <br>8am - 5pm (Mon-Sun)
+                        </p>
+						<p>Rating: 5.0 ⭐⭐⭐⭐⭐</p>
+					</div>
+				</li>
+                <li>
+					<img src="https://i.ibb.co/gj762zk/hiddent-1.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/164hiddentigercafe/">164 Hidden Tiger Cafe</a></h3>
+						<p>428/164 Habitia Motif Village,
+                            <br> PanyaIntra, Bangkok,
+                            <br> Thailand, Bangkok</p>
+						<p>Opening Hours
+                            <br> Closed (Mon)
+                            <br> 9am - 3.30pm (Tues-Fri)
+                            <br> 9am - 4pm (Sat-Sun)
+                        </p>
+						<p>Rating: 5.0 ⭐⭐⭐⭐⭐</p>
+					</div>
+				</li>
+            </ul>
+                <ul>
+				<li>
+					<img src="https://i.ibb.co/gPDz3sR/k36-1.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/K36cafe/">K36 Cafe</a></h3>
+						<p>61/298 ซอย คู้บอน 36,
+                            <br> บางชัน, คลองสามวา, กรุงเทพมหานคร
+                            <br> 10510, ประเทศไทย, Bangkok,
+                            <br> Thailand, Bangkok</p>
+						<p>Opening Hours :
+                            <br>9am - 6pm (Mon-Sun)
+                        </p>
+						<p>Rating: 5.0 ⭐⭐⭐⭐⭐</p>
+					</div>
+				</li>
+				<li>
+					<img src="https://i.ibb.co/7XYqqwT/hwan-1.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/hwantsucafe/">Hwantsu Creative Cafe</a></h3>
+						<p>300 ถนนสาลีรัฐ​วิภาค​ สามเสนใ
+                            <br> พญาไท, Bangkok, Thailand,
+                            <br> Bangkok</p>
+						<p>Opening Hours :
+                            <br> Closed (Mon)
+                            <br> 9am - 9pm (Tues-Sun)
+                        </p>
+						<p>Rating: 4.0 ⭐⭐⭐⭐</p>
+					</div>
+				</li>
+            </ul>
+                <ul>
+                <li>
+					<img src="https://i.ibb.co/D73CsJb/wood-1.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/WoodCafeandmore/">Wood Cafe</a></h3>
+						<p>44, Soi Lat Phrao Wang Hin 48,
+                            <br> Lat Phrao Wang Hin Road,
+                            <br> Lat Phrao, Khet Lat Phrao,
+                            <br> Bangkok, Thailand, Bangkok</p>
+						<p>Opening Hours :
+                            <br> Closed (Mon-Tues)
+                            <br> 11.30am - 8pm (Weds-Sun)
+                        </p>
+						<p>Rating: 3.7 ⭐⭐⭐</p>
+					</div>
+				</li>
+				<li>
+					<img src="https://i.ibb.co/k5SJtMf/326340945-713940620289849-7691490493604547006-n.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/hookrajongcafe/">Hookrajong Cafe</a></h3>
+						<p>999/35 ถนนยานนาวา เขตยานนาวา
+                            <br> แขวงช่องนนทรี, Bangkok,
+                            <br> Thailand, Bangkok</p>
+						<p>Opening Hours :
+                            <br>8am - 9pm (Mon-Sun)
+                        </p>
+						<p>Rating: 4.6 ⭐⭐⭐⭐</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+	</main>
+</body>
+</html>
+
+</body>
+</html>
+
+</body>
+</html>

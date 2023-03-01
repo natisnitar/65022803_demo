@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cafe Locator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <style> * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(180deg, #087E8B 0%, #CCEAEA 100%)
+    }
+    
+    header {
+        background-color: #4285f4;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    main {
+        padding: 1em;
+    }
+    
+    .search {
+        margin-bottom: 1em;
+    }
+    
+    h2 {
+        margin-bottom: 0.5em;
+    }
+    
+    form {
+        display: flex;
+    }
+    
+    input[type="text"] {
+        flex: 1;
+        padding: 0.5em;
+        border: 1px solid #ccc;
+        border-radius: 5px 0 0 5px;
+    }
+    
+    button[type="submit"] {
+        background-color: #4285f4;
+        color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        padding: 0.5em 1em;
+        cursor: pointer;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 1em;
+        margin: 10em;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    }
+    
+    li {
+        display: flex;
+	align-items: center;
+	margin: 1em;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+    
+    img {
+        margin-right: 1em;
+    }
+    
+    h3 {
+        margin: 0;
+    }
+    
+    footer {
+        background-color: #4285f4;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #0B3954;
+    color: #fff;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 6em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+nav {
+    margin-left: auto;
+}
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.category-buttons button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #eee;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 8px;
+    border-radius: 4px;
+    align-items: center;
+    height: 170px;
+    width: 185px;
+    border-radius: 30px;
+    
+}
+
+.category-buttons button.active {
+    background-color: #F8FFAC;
+    color: black;
+}
+
+
+    </style>
+	</main>
+	<header>
+        <h1><img src="https://i.ibb.co/mt8BS3y/Logo-1.jpg" style="border-radius: 30px;"> </h1>
+        <nav>
+            <ul>
+                <li><a href="notmade.html">Search</a></li>
+                <li><a href="notmade.html">Reviews</a></li>
+                <li><a href="notmade.html">Promotions</a></li>
+                <li><a href="notmade.html">Filters</a></li>
+                <li><a href="notmade.html">Admin</a></li>
+                <li><a href="notmade.html">Contact Us</a></li>
+                <li><a href="notmade.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+	<main>
+			<form>
+				<div class="category-buttons">
+                    <button>
+                        <a href="chill.html"><h1>☁️</h1>
+                        <h2>นั่งชิว</h2></a></button>
+                    <button class="active"><a href="cat.html"><h1>😸</h1>
+                        <h2>รักสัตว์</h2></a></button>
+                    <button><a href="book.html"><h1>📚</h1>
+                        <h2>อ่านหนังสือ</h2></a></button>
+                </div>
+                
+			</form>
+		</section>
+		<section class="results">
+			<ul>
+				<li>
+					<img src="https://i.ibb.co/YyHz4Nd/zoo.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/littlezoocafe/">Little Zoo Cafe</a></h3>
+						<p>424/7-8 Siam Square Alley11,
+                            <br> Bangkok 10330
+                            </p>
+						<p>Opening Hours :
+                            <br>Closed (Mon)
+                            <br>10am - 7pm (Tues-Sun)</p>
+						<p>Rating: 4.1 ⭐⭐⭐⭐</p>
+					</div> 
+				</li>
+				<li>
+					<img src="https://i.ibb.co/fX4vk9H/G-G.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/gandgcafe/">G&G Cafe</a></h3>
+						<p>อยู่บริเวณเดียวกับสวน
+                            <br>อาหารซุ้มไผ่ (จรัญ13)
+                        </p>
+						<p>Opening Hours :
+                            <br>9am - 6pm(Mon-Sun)
+                        </p>
+						<p>Rating: 4.1 ⭐⭐⭐⭐</p>
+					</div>
+				</li>
+            </ul>
+            <ul>
+				<li>
+					<img src="https://i.ibb.co/nR1hTZv/dog.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/DogInTownCafeEkkamai/">Dog in Town - Dog Cafe</a></h3>
+						<p>16/1 Soi Ekkamai 6,
+                            <br> Bangkok, Thailand, Bangkok</p>
+						<p>Opening Hours :
+                            <br>11am - 8pm (Mon-Sun)
+                        </p>
+						<p>Rating: 4.0 ⭐⭐⭐⭐</p>
+					</div>
+				</li>
+                <li>
+					<img src="https://i.ibb.co/f113Rz1/tlove.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/neverlandsiberians/">TrueLove At Neverland</a></h3>
+						<p>153 Soi Ari Samphan 2,
+                            <br> Samsen Nai, Phaya Thai
+                            <br>Bangkok, Thailand 10400</p>
+						<p>Opening Hours :
+                            <br>12pm - 5pm (Mon-Sun)
+                        </p>
+						<p>Rating: 4.7 ⭐⭐⭐⭐</p>
+					</div>
+				</li>
+            </ul>
+                <ul>
+				<li>
+					<img src="https://i.ibb.co/7KTrJps/rabbito.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/CafeRabbito/">Rabbito Cafe</a></h3>
+						<p>ปากซอย สุขุมวิท 101/1 ถนน สุขุมวิท
+                            <br> 101/1 แขวง บางจาก เขต พระโขนง,
+                            <br> Bangkok, Thailand, Bangkok
+                            </p>
+						<p>Opening Hours :
+                            <br>12pm - 7pm (Mon-Sun)
+                        </p>
+						<p>Rating: 4.4 ⭐⭐⭐⭐</p>
+					</div>
+				</li>
+				<li>
+					<img src="https://i.ibb.co/gFRqBYf/cat.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/caturdaycatcafe/">Caturday Cat Cafe</a></h3>
+						<p>89/70 Phayathai Rd, Ratchathewi,
+                            <br> Bangkok, Thailand, Bangkok
+                            </p>
+						<p>Opening Hours :
+                            <br>Closed (Mon)
+                            <br>12pm - 9pm (Tues-Fri)
+                            <br>11am - 9pm (Sat-Sun)
+                        </p>
+						<p>Rating: 4.6 ⭐⭐⭐⭐</p>
+					</div>
+				</li>
+            </ul>
+                <ul>
+                <li>
+					<img src="https://i.ibb.co/M8bCLp5/bunny.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/luckybunnycafe/">Lucky Bunny Cafe</a></h3>
+						<p>Chiang Mai, Thailand, Chiang Mai
+                            </p>
+						<p>Opening Hours :
+                            <br>10am - 7pm (Mon-Tues)
+                            <br>9am - 7pm (Weds)
+                            <br>Closed (Thurs)
+                            <br>10.30am - 7pm (Fri-Sun)
+                        </p>
+						<p>Rating: 4.7 ⭐⭐⭐⭐</p>
+					</div>
+				</li>
+				<li>
+					<img src="https://i.ibb.co/yYMcS7M/doggy.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/LittleDogClub/">Little Dog Club</a></h3>
+						<p>1606 ปากซอยลาดพร้าว 54 ถนน
+                            <br>ลาดพร้าว, Bangkok, Thailand,
+                            <br> Bangkok</p>
+						<p>Opening Hours :
+                            <br> ไม่ระบุ
+                        </p>
+						<p>Rating: 4.2 ⭐⭐⭐⭐</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+	</main>
+</body>
+</html>
+
+</body>
+</html>
+
+</body>
+</html>

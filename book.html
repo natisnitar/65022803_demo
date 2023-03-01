@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cafe Locator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <style> * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(180deg, #087E8B 0%, #CCEAEA 100%)
+    }
+    
+    header {
+        background-color: #4285f4;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    main {
+        padding: 1em;
+    }
+    
+    .search {
+        margin-bottom: 1em;
+    }
+    
+    h2 {
+        margin-bottom: 0.5em;
+    }
+    
+    form {
+        display: flex;
+    }
+    
+    input[type="text"] {
+        flex: 1;
+        padding: 0.5em;
+        border: 1px solid #ccc;
+        border-radius: 5px 0 0 5px;
+    }
+    
+    button[type="submit"] {
+        background-color: #4285f4;
+        color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        padding: 0.5em 1em;
+        cursor: pointer;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 1em;
+        margin: 10em;
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    }
+    
+    li {
+        display: flex;
+	align-items: center;
+	margin: 1em;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+    
+    img {
+        margin-right: 1em;
+    }
+    
+    h3 {
+        margin: 0;
+    }
+    
+    footer {
+        background-color: #4285f4;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #0B3954;
+    color: #fff;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 6em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+nav {
+    margin-left: auto;
+}
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.category-buttons button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #eee;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 8px;
+    border-radius: 4px;
+    align-items: center;
+    height: 170px;
+    width: 185px;
+    border-radius: 30px;
+    
+}
+
+.category-buttons button.active {
+    background-color: #F8FFAC;
+    color: black;
+}
+
+
+    </style>
+	</main>
+	<header>
+        <h1><img src="https://i.ibb.co/mt8BS3y/Logo-1.jpg" style="border-radius: 30px;"> </h1>
+        <nav>
+            <ul>
+                <li><a href="notmade.html">Search</a></li>
+                <li><a href="notmade.html">Reviews</a></li>
+                <li><a href="notmade.html">Promotions</a></li>
+                <li><a href="notmade.html">Filters</a></li>
+                <li><a href="notmade.html">Admin</a></li>
+                <li><a href="notmade.html">Contact Us</a></li>
+                <li><a href="notmade.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+	<main>
+			<form>
+				<div class="category-buttons">
+                    <button>
+                        <a href="chill.html"><h1>☁️</h1>
+                        <h2>นั่งชิว</h2></a></button>
+                    <button><a href="cat.html"><h1>😸</h1>
+                        <h2>รักสัตว์</h2></a></button>
+                    <button class="active"><a href="book.html"><h1>📚</h1>
+                        <h2>อ่านหนังสือ</h2></a></button>
+                </div>
+                
+			</form>
+		</section>
+		<section class="results">
+			<ul>
+				<li>
+					<img src="https://i.ibb.co/X2LRDQc/author.png" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/theauthor.bkk/">The Author</a></h3>
+						<p> The Walk, Prasert-Manukitch Rd.,
+                            <br> Lat Plao, Bangkok, Thailand,
+                            <br> Bangkok</p>
+						<p>Opening Hours :
+                            <br>10am - 7pm (Mon-Sun)
+                            </p>
+						<p>Rating: 4.2 ⭐⭐⭐⭐</p>
+					</div> 
+				</li>
+				<li>
+					<img src="https://i.ibb.co/LQ5ffKH/too.png" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/toofasttosleep/">Too Fast to Sleep</a></h3>
+						<p>768 Rama IV Rd, Bangkok,
+                            <br> Thailand, Bangkok
+                            </p>
+						<p>Opening Hours :
+                            <br>9am - 8pm (Mon-Sun)
+                            <br>
+                        </p>
+						<p>Rating: 3.7 ⭐⭐⭐</p>
+					</div>
+				</li>
+            </ul>
+            <ul>
+				<li>
+					<img src="https://i.ibb.co/xC7vnSh/book.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/booksandbelongings/">Books and Belongings</a></h3>
+						<p>502 Sukhumvit 95 Bang Chak,
+                            <br>Phra Khanong, Bangkok,
+                        <br> Thailand, Bangkok</p>
+						<p>Opening Hours :
+                            <br>ไม่ระบุ
+                        </p>
+						<p>Rating: 4.1 ⭐⭐⭐⭐</p>
+					</div>
+				</li>
+                <li>
+					<img src="https://i.ibb.co/hRMZJdK/fathom.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/fathombookspace/?_rdc=1&_rdr">Fathom Bookspace</a></h3>
+						<p>594 ซอย สวนพลู 5 แขวงทุ่งมหาเมฆ
+                            <br>เขตสาทร กรุงเทพมหานคร 10120
+                            </p>
+						<p>Opening Hours :
+                            <br>10am - 6.30pm (Mon-Tues)
+                            <br>Closed (Weds)
+                            <br>10am - 6.30pm (Thurs-Sun)
+                        </p>
+						<p>Rating: 5.0 ⭐⭐⭐⭐⭐</p>
+					</div>
+				</li>
+            </ul>
+                <ul>
+				<li>
+					<img src="https://i.ibb.co/kDNKf3S/library.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/people/Your-Cafe-The-Library/100040302672809/">Your Cafe The Library</a></h3>
+						<p>ประเสริฐมนูกิจ, Bangkok,
+                            <br> Thailand, Bangkok
+                        </p>
+						<p>Opening Hours :
+                            <br> Always Open
+                        </p>
+						<p>Rating: 5.0 ⭐⭐⭐⭐⭐</p>
+					</div>
+				</li>
+				<li>
+					<img src="https://i.ibb.co/SVbRTh1/candide.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/CandideBooks/">Candide Books</a></h3>
+						<p>Candide Books ก็องดิด 41/4
+                            <br> The Jam Factory  Charoen
+                            <br> Nakhon Road Khlong San ,
+                            <br>Bangkok, Thailand, Bangkok</p>
+						<p>Opening Hours :
+                            <br>10am - 6pm (Mon-Sun)
+                        </p>
+						<p>Rating: 4.2 ⭐⭐⭐⭐</p>
+					</div>
+				</li>
+            </ul>
+                <ul>
+                <li>
+					<img src="https://i.ibb.co/p3SMH6y/house.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/HOCSpace/">House of Commons- 
+                            <br>Bookspace & Cafe</a></h3>
+						<p>Charoen krung, Bangkok,
+                            <br> Thailand, Bangkok</p>
+						<p>Opening Hours :
+                            <br>9am - 6pm (Mon-Sun)
+                        </p>
+						<p>Rating: 3.7 ⭐⭐⭐</p>
+					</div>
+				</li>
+				<li>
+					<img src="https://i.ibb.co/RSMDtxX/lib.jpg" style="border-radius: 30px;" alt="Restaurant Image">
+					<div>
+						<h3><a href="https://www.facebook.com/librarycafe/">ไล-บรา-รี่</a></h3>
+						<p>70 Rama IX Soi 41 สวนหลวง
+                            <br>กรุงเทพมหานคร 10250,
+                            <br> ประเทศไทย</p>
+						<p>Opening Hours :
+                            <br>10am - 9pm (Mon-Sun)
+                        </p>
+						<p>Rating: 3.8 ⭐⭐⭐</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+	</main>
+</body>
+</html>
+
+</body>
+</html>
+
+</body>
+</html>
